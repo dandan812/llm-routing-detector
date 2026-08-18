@@ -1,0 +1,15 @@
+# Local detector runs may contain prompts, responses, endpoint URLs, or other retained data.
+gpt56_vnext_runs/
+
+# Python/test caches.
+.pytest_cache/
+**/__pycache__/
+*.py[cod]
+
+# Local secrets and credentials.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
